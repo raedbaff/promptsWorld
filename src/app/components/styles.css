@@ -1,0 +1,10 @@
+.dropdown {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  position: absolute;
+  background-color: white;
+  top: 10px;
+  right: 50px;
+  width: 200px;
+}

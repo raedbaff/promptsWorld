@@ -1,0 +1,90 @@
+.prompt-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.creator-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.creator-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.creator-name {
+  font-weight: bold;
+}
+
+.creator-email {
+  font-size: small;
+  margin-left: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  font-weight: bold;
+}
+
+.prompt-text {
+  margin-bottom: 10px;
+}
+
+.footer {
+  display: flex;
+}
+
+.CardButtons {
+  margin-left: auto;
+  padding: 5px;
+}
+
+.CardEditButton {
+  margin-right: 5px;
+  border: 1px solid blue;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: blue;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.CardEditButton:hover {
+  background-color: blue;
+  color: white;
+}
+
+.CardDeleteButton {
+  margin-right: 5px;
+  border: 1px solid red;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.CardDeleteButton:hover {
+  background-color: red;
+  color: white;
+}
+
+.tag {
+  color: #007bff;
+  padding: 5px 10px;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tag:hover {
+  color: #0551a2;
+}
